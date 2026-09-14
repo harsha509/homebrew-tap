@@ -5,6 +5,7 @@ class JiraTui < Formula
   version "0.0.1-beta"
   sha256 "6f87a2fa9d8bcfdb194f8395dabde8877addaec9a2056bd9ee373a16af41361a"
   license "MIT"
+  head "https://github.com/harsha509/jira-tui.git", branch: "main"
 
   depends_on "node"
 
