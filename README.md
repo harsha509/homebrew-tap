@@ -1,18 +1,11 @@
-# Harsha509 Tap
+# harsha509/homebrew-tap
 
-## How do I install these formulae?
+Homebrew formulae for [harsha509](https://github.com/harsha509)'s tools.
 
-`brew install harsha509/tap/<formula>`
-
-Or `brew tap harsha509/tap` and then `brew install <formula>`.
-
-Or, in a `brew bundle` `Brewfile`:
-
-```ruby
-tap "harsha509/tap"
-brew "<formula>"
+```bash
+brew install harsha509/tap/jira-tui
 ```
 
-## Documentation
-
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+| Formula | What |
+| --- | --- |
+| [jira-tui](https://github.com/harsha509/jira-tui) | Terminal UI for JIRA: ticket list, board, and actions in one shell |
